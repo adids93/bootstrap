@@ -14,3 +14,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 printf "\n Setting up NodeJS\n"
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+sudo apt install neovim -y

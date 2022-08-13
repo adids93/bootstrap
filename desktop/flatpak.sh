@@ -1,5 +1,7 @@
 #!/bin/bash
 
+flatpak update
+
 printf "\nInstalling ULauncher"
 sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update && sudo apt install ulauncher -y
 
@@ -36,3 +38,6 @@ flatpak install -y --noninteractive flathub com.github.tchx84.Flatseal
 
 printf "\ninstalling Extension Manager\n"
 flatpak install -y --noninteractive flathub com.mattjakeman.ExtensionManager 
+
+printf "\ninstalling Extension Manager\n"
+flatpak install -y --noninteractive flathub com.valvesoftware.Steam

@@ -9,3 +9,4 @@
 ### Manual setup
 - Virtualbox
 - Veracrypt
+- Custom Hot corners. Extenstion Manager

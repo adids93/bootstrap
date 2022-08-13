@@ -22,3 +22,6 @@ sudo apt install chrome-gnome-shell
 wget https://github.com/G-dH/custom-hot-corners-extended/releases/latest/download/custom-hot-corners-extended@G-dH.github.com.zip
 gnome-extensions install --force custom-hot-corners-extended@G-dH.github.com.zip
 gnome-extensions enable custom-hot-corners-extended@G-dH.github.com
+
+gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
