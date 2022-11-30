@@ -41,3 +41,9 @@ flatpak install -y --noninteractive flathub com.mattjakeman.ExtensionManager
 
 printf "\ninstalling Extension Manager\n"
 flatpak install -y --noninteractive flathub com.valvesoftware.Steam
+
+printf "\ninstalling Transmission\n"
+flatpak install -y --noninteractive flathub com.transmissionbt.Transmission
+
+printf "\nInstallng Syncthing"
+flatpak install -y --noninteractive flathub me.kozec.syncthingtk

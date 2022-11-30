@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export PATH=$PATH:/home/aditya/workspace/sdk/android/platform-tools
+export PATH=$PATH:/home/aditya/workspace/sdk/flutter/bin
+
 # Path to your oh-my-zsh installation.
 export ZSH="/home/aditya/.oh-my-zsh"
 

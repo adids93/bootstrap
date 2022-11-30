@@ -25,3 +25,11 @@ gnome-extensions enable custom-hot-corners-extended@G-dH.github.com
 
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
+gsettings set org.gnome.shell.extensions.dash-to-dock show-trash true
+
+# sudo apt install blueman
+
+sudo apt install heif-gdk-pixbuf
+sudo apt install heif-thumbnailer
+
+https://github.com/TheAssassin/AppImageLauncher/releases https://github.com/TheAssassin/AppImageLauncher/releases &
